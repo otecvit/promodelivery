@@ -11,3 +11,44 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.topBar {
+  position: fixed;
+  z-index: 1;
+  width: 100%;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0,0,0,.2);
+}
+
+
+
+.background svg {
+  position: absolute;
+  height: 100%;
+  transform: scale(2);
+  top: -75px;
+  left: -30px;
+}
+
+.background img {
+  width: 100%;
+  max-width: 700px;
+  transform: scale(1.2);
+}
+
+.slider-content {
+  padding-top: 200px;
+  max-width: 660px;
+}
+
+.slider-content h1{
+  font-size: 38px;
+}
+
+
+@media (min-width: 1600px) {
+  .background img {
+    margin-left: 80px;
+    transform: scale(1.3);
+  }
+}
